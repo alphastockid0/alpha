@@ -439,8 +439,8 @@ if($json->is_user_present == 1){
 }
 echo 'Enter OTP : '; 
 $otp = trim(fgets(STDIN)); 
-$reff = 'WAHYROOJQQ'; 
-echo 'Enter refferal : $reff '; 
+$reff = "WAHYROOJQQ"; 
+echo "Enter refferal : $reff"; 
 
 $random_nama=$nama[mt_rand(0,sizeof($nama)-1)];
 $random_nama2=$nama[mt_rand(0,sizeof($nama)-1)];
